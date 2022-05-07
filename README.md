@@ -12,10 +12,8 @@ recoil
 
 tailwind
 
+https://tailwindcss.jp/docs/height
+
 ## cookie
 
 react-cookie
-
-## tailwind チートシート
-
-https://tailwindcss.jp/docs/height
