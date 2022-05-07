@@ -3,7 +3,7 @@ import { InCompleteTodos } from "./components/InCompleteTodos";
 import { CompleteTodos } from "./components/CompleteTodos";
 import { Layout } from "./components/Layout";
 
-const App = () => {
+function App() {
   return (
     <Layout>
       <InputTodos />
@@ -11,6 +11,6 @@ const App = () => {
       <CompleteTodos />
     </Layout>
   );
-};
+}
 
 export default App;
