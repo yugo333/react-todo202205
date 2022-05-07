@@ -13,7 +13,7 @@ export const CompleteTodos: FC = () => {
   const [complete, setComplete] = useRecoilState<string[]>(completeState);
 
   useEffect(() => {
-    if (cookies.Complete.length !== 0) return;
+    if (cookies.Complete.length === undefined) return;
     setComplete([...cookies.Complete]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
